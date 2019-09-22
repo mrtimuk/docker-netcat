@@ -1,0 +1,7 @@
+version: '2'
+services:
+  netcat:
+    ports:
+      - "4444:4444"
+    container_name: netcat
+    build: .
